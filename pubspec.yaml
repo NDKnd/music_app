@@ -84,6 +84,22 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/to/font-from-package
+  assets:
+  - assets/fonts/
+  - assets/images/
+  - assets/vectors/
+
+  fonts:
+    - family: Satoshi
+      fonts:
+      - asset: assets/fonts/Satoshi-Ligth.tff
+        weight: 300
+      - asset: assets/fonts/Satoshi-Regular.tff
+        weight: 400
+      - asset: assets/fonts/Satoshi-Medium.tff
+        weight: 500
+      - asset: assets/fonts/Satoshi-Bold.tff
+        weight: 700
+      - asset: assets/fonts/Satoshi-Black.tff
+        weight: 900
+
